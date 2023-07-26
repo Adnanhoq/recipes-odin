@@ -1,40 +1,111 @@
-body{
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v996-008-kroiqtdh.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=96026b35e406acc8c3517293d0a1685e);
-    width: 70%;
-    margin: auto;
-    text-align: center;
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-.titleMain{
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a3d1;
+}
+
+img {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    height: 275px;
+}
+
+h1, .titleMain{
     text-align: center;
     color: darkmagenta   ;
 }
 
-.imageLink{
-    display: flex;
-    flex-direction: row;
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 75%; */
+.brownieDesc {
+    color: darkgoldenrod;
+    margin-bottom: 20px;
+} 
+
+.recipe-card {
+    width: 850px; 
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
 }
 
-.imageLink #brownieLink{
-    background-color: orange;
-    float: left;
-    width: 50%;
-    align-items: center;
-    justify-content: left;
-
+.recipe-content {
+    padding: 20px;
+    display: inline-block;
+    width: 580px;
+    vertical-align: top;
 }
-.imageLink #waffleLink{
-    background-color: black;
-    float: right;
-    width: 50%;
-    align-items: center;
-    justify-content: right;
 
+.recipe-card h2,
+.recipe-card a {
+    text-transform: uppercase;
 }
+
+.recipe-card.feature {
+    border: 2px solid darkred;
+}
+
+ul .recipe-prep-time, ul .recipe-total-time {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
+.recipe-card a {
+    background-color: #fc9400;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-info {
+    display: inline-block;
+    width: 380px;
+}
+
+
+
+
+
+
 
 .pageDesc{
     color: darkgoldenrod;
+    margin: 20px 30px;
+}
+
+.imageLink #brownieLink{
+    /* background-color: orange; */
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+}
+.imageLink #waffleLink{
+    /* background-color: black; */
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+
+
+
+.button{
+    background-color: #fc9400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
 }

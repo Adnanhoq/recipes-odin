@@ -86,18 +86,19 @@ ul li h2 {
     margin: 20px 30px;
 }
 
-.imageLink #brownieLink{
-    /* background-color: orange; */
-    float: left;
-    padding: 20px;
-    margin-left: 50px;
+.imageLink{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.imageLink #waffleLink{
-    /* background-color: black; */
-    float: right;
+
+.imageLink img{
+    flex: 1;
+    object-fit: cover;
+
+    border: red solid 2px;
     padding: 20px;
-    margin-right: 50px;
-    align-items: center;
+    margin: 20px;
 }
 
 

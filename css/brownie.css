@@ -1,20 +1,5 @@
-* {
-    line-height: 1.5;
-    margin: 0;
+*{
     box-sizing: border-box;
-}
-
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    display: flex;
-}
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #c2a3d1;
 }
 
 img {
@@ -23,11 +8,6 @@ img {
     vertical-align: top;
     height: 275px;
     /* object-fit: cover; */
-}
-
-h1, .titleMain{
-    text-align: center;
-    color: darkmagenta   ;
 }
 
 .brownieDesc {
@@ -79,47 +59,4 @@ ul li h2 {
 .recipe-info {
     display: inline-block;
     width: 380px;
-}
-
-
-
-
-
-
-.homepage-card {
-    background-color: #FFFAFA;
-    margin: 20px auto;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
-}
-
-.container .homepage-card{
-    flex: 1;
-}
-.pageDesc{
-    color: darkgoldenrod;
-    margin: 20px 30px;
-}
-
-.imageLink{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.imageLink img{
-    flex: 1;
-    object-fit: cover;
-    border: red solid 2px;
-    padding: 20px;
-    margin: 20px;
-}
-
-
-
-
-.button{
-    background-color: #fc9400;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
 }

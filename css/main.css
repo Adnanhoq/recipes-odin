@@ -10,21 +10,25 @@
     display: flex;
 }
 
+h1, .titleMain{
+    text-align: center;
+    color: darkmagenta   ;
+}
+
+.pageDesc{
+    color: darkgoldenrod;
+    margin: 20px 30px;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #c2a3d1;
 }
 
-img {
-    width: 250px;
-    display: inline-block;
-    vertical-align: top;
-    height: 275px;
-    /* object-fit: cover; */
-}
-
-h1, .titleMain{
-    text-align: center;
-    color: darkmagenta   ;
+.button{
+    background-color: #fc9400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
 }

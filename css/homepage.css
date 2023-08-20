@@ -1,0 +1,31 @@
+img {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    height: 275px;
+    /* object-fit: cover; */
+}
+
+.homepage-card {
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+}
+
+.container .homepage-card{
+    flex: 1;
+}
+
+.imageLink{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageLink img{
+    flex: 1;
+    object-fit: cover;
+    border: red solid 2px;
+    padding: 20px;
+    margin: 20px;
+}
